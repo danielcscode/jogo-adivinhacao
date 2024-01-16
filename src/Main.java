@@ -11,7 +11,7 @@ public class Main {
         int numeroJogador = teclado.nextInt();
 
         if (numeroJogador != numeroCPU) {
-            for (int i = 1; i < 6; i++) {
+            for (int i = 1; i < 8; i++) {
                 if (numeroJogador < numeroCPU) {
                     System.out.println("Você errou! O numero escolhido pela CPU é maior!");
                     System.out.println("");
